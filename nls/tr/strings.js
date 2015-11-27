@@ -21,27 +21,27 @@ define({
     "ERR_DIAG_NOSERVERFOUND_CONTENT" : "Güncel projeye bağlı eqFTP bağlantısı yok veya sunucuya bağlı değil.<br>Sunucuya bağlanın veya ayarlarda yerel yol olarak güncel proje klasörünü belirleyin.",
     "ERR_DIAG_ECONNRESET_TITLE" : "Sunucu bağlantıyı reddediyor",
     "ERR_DIAG_ECONNRESET_CONTENT" : "Sunucuya bağlanılamadı, buna izin yok.<br>Brackets'ı yeniden başlatmayı deneyin.",
-    "ERR_DIAG_ECONNABORTED_TITLE" : "You've been disconnected from server", //NEW
-    "ERR_DIAG_ECONNABORTED_CONTENT" : "Connection aborted. Trying to reconnect.", //NEW
+    "ERR_DIAG_ECONNABORTED_TITLE" : "Sunucu ile bağlantınız kesildi", 
+    "ERR_DIAG_ECONNABORTED_CONTENT" : "Bağlantı iptal edildi. Tekrar bağlanılıyor.",
     "ERR_DIAG_UNIVERSAL_TITLE" : "Bir sorun var!",
     "ERR_DIAG_UNIVERSAL_CONTENT" : "Sanırım bir hata oluştu! Bu nasıl oldu?",
-    "ERR_DIAG_NORSAKEYFOUND" : "There's no RSA key found in: ", //NEW A path to RSA file will be appended after colon.
+    "ERR_DIAG_NORSAKEYFOUND" : "Şu konumda RSA anahtarı bulunamadı: ", //NEW A path to RSA file will be appended after colon.
 
-    "NOT_DIAG_CONNECTED" : "Connected to server.", //NEW
-    "NOT_DIAG_DISCONNECTED" : "Disconnected from server.", //NEW
-    "NOT_DIAG_FILESDIFFERENT" : "There's a difference between local and remote files. Click here for more actions.", //NEW
+    "NOT_DIAG_CONNECTED" : "Sunucuya bağlandı.", 
+    "NOT_DIAG_DISCONNECTED" : "Sunucu bağlantısı sonlandırıldı.", 
+    "NOT_DIAG_FILESDIFFERENT" : "Yerel ve sunucudaki dosyalar arasıda fark var. Daha fazla seçenek için buraya tıklayın.", 
 
     "PASSWDWIND_TITLE" : "Lütfen Şifrenizi Girin",
     "PASSWDWIND_CONTENT" : "eqFTP için Şifreniz:",
 
-    "CHECKDIFF_TITLE" : "There's difference between files", //NEW
-    "CHECKDIFF_CONTENT" : "Remote and local copies of file are different. Please choose an action you would like to do.", //NEW
-    "CHECKDIFF_BUTTON_COMPARE" : "Compare files", //NEW
-    "CHECKDIFF_BUTTON_SHOWCHANGES" : "Show changes", //NEW
-    "CHECKDIFF_BUTTON_KEEPLOCAL" : "Keep local", //NEW
-    "CHECKDIFF_BUTTON_KEEPLOCALALL" : "Keep local copies for current queue", //NEW
-    "CHECKDIFF_BUTTON_GETREMOTE" : "Get remote", //NEW
-    "CHECKDIFF_BUTTON_GETREMOTEALL" : "Get remote copies for current queue", //NEW
+    "CHECKDIFF_TITLE" : "Dosyalar arasında fark var.", 
+    "CHECKDIFF_CONTENT" : "Dosyaların yerel ve sunucudaki kopyaları farklı. Lütfen uygulamak istediğiniz eylemi seçin.", 
+    "CHECKDIFF_BUTTON_COMPARE" : "Dosyaları kıyasla",
+    "CHECKDIFF_BUTTON_SHOWCHANGES" : "Değişiklikleri göster",
+    "CHECKDIFF_BUTTON_KEEPLOCAL" : "Yereli sakla", 
+    "CHECKDIFF_BUTTON_KEEPLOCALALL" : "Geçerli sıra için yerel kopyaları sakla",
+    "CHECKDIFF_BUTTON_GETREMOTE" : "Sunucudan al", 
+    "CHECKDIFF_BUTTON_GETREMOTEALL" : "Geçerli sıra için sunucudaki kopyaları al", 
 
     "SETTINGSWIND_TITLE" : "eqFTP Bağlantı Yöneticisi",
     "SETTINGSWIND_ERR_BLANKS" : "Oh! Birşeyler ters gidiyor gibi. Girdiğiniz bilgileri kontrol edip, tekrar deneyin.",
@@ -50,8 +50,8 @@ define({
     "SETTINGSWIND_NOTIF_DONE" : "Ayarlar kaydedildi! :)",
     "SETTINGSWIND_SAVEDCONN" : "Kayıtlı FTP Bağlantıları",
     "SETTINGSWIND_DELETECONN_HOVER" : "Bu Bağlantıyı Sil",
-    "SETTINGSWIND_COPYCONN_HOVER" : "Copy This Connection", //NEW
-    "SETTINGSWIND_ERROR_DELETE_CURCONNSERV" : "You can't delete connection you're using now", //NEW
+    "SETTINGSWIND_COPYCONN_HOVER" : "Bu bağlantıyı kopyala",
+    "SETTINGSWIND_ERROR_DELETE_CURCONNSERV" : "Etkin kullandığınız bağlantıyı silemezsiniz",
     "SETTINGSWIND_ADDCONN_HOVER" : "Yeni Bağlantı Ekle",
     "SETTINGSWIND_ADDCONN_STRING" : "Yeni Bağlantı Oluştur...",
     "SETTINGSWIND_DELETECONNCONF_1" : "",
@@ -63,7 +63,7 @@ define({
     "SETTINGSWIND_GLOB_FOLDERFORSET" : "Ayarlar için Klasör:",
     "SETTINGSWIND_GLOB_FOLDERFORSET_DIAGTITLE" : "Ayar Dosyaları için Klasör",
     "SETTINGSWIND_GLOB_DONTOPENPROJECTS" : "İndirdikten Sonra Projeyi Açma",
-    "SETTINGSWIND_GLOB_MASTERPASSWORD" : "Master Password", //NEW
+    "SETTINGSWIND_GLOB_MASTERPASSWORD" : "Ana Şifre", 
     "SETTINGSWIND_GLOB_CONNECTIONNAME_TITLE" : "Bağlantı İsmi:",
     "SETTINGSWIND_GLOB_CONNECTIONNAME_FIELD" : "Bağlantı ismini girin",
     "SETTINGSWIND_GLOB_SERVER_TITLE" : "Sunucu:",
@@ -72,54 +72,54 @@ define({
     "SETTINGSWIND_GLOB_USERNAME_FIELD" : "FTP kullanıcı adı",
     "SETTINGSWIND_GLOB_PASSWORD_TITLE" : "Şifre:",
     "SETTINGSWIND_GLOB_PASSWORD_FIELD" : "FTP şifre",
-    "SETTINGSWIND_GLOB_RSA_TITLE" : "RSA key", //NEW
-    "SETTINGSWIND_GLOB_RSA_FIELD" : "Click to select RSA key", //NEW
-    "SETTINGSWIND_GLOB_FOLDERFORRSA_DIAGTITLE" : "Choose path to RSA key", //NEW
+    "SETTINGSWIND_GLOB_RSA_TITLE" : "RSA anahtarı", 
+    "SETTINGSWIND_GLOB_RSA_FIELD" : "RSA anahtarını seçmek için tıklayın",
+    "SETTINGSWIND_GLOB_FOLDERFORRSA_DIAGTITLE" : "RSA anahtarı için yolu seçin",
     "SETTINGSWIND_GLOB_REMOTEPATH_TITLE" : "Sunucu Yolu:",
     "SETTINGSWIND_GLOB_REMOTEPATH_FIELD" : "Uzak sunucuda projenizin ana dizininin bulunduğu klasörü girin",
     "SETTINGSWIND_GLOB_LOCALPATH_TITLE" : "Yerel Yol:",
     "SETTINGSWIND_GLOB_LOCALPATH_FIELD" : "Eğer boş bırakırsanız varsayılan konumunuza yeni klasör oluşturur",
     "SETTINGSWIND_GLOB_UPLOADONSAVE" : "Dosya Kaydedildiğinde Yükle",
-    "SETTINGSWIND_GLOB_UPLOADONSAVEPAUSED" : "Add to paused queue.", //NEW
+    "SETTINGSWIND_GLOB_UPLOADONSAVEPAUSED" : "Durdurulmuş sıraya ekle.", 
     "SETTINGSWIND_GLOB_EVENDISCONN" : "Bağlı Olmadığında Bile",
     "SETTINGSWIND_GLOB_EVENDISCONN_EXPLAIN" : "Bu seçenek ile sunucuya otomatik bağlanılarak, sunucu üzerinden açılan dosyalar hemen yüklenir veya sunucuda yeni bir dosya oluşturulur.",
     "SETTINGSWIND_GLOB_LOCALPATH_FILLWPROJECT_TITLE" : "Geçerli projenin yolunu ekle",
-    "SETTINGSWIND_GLOB_FRM_TITLE" : "Choose folder retrieving method:", //NEW
-    "SETTINGSWIND_GLOB_FRM_LIST" : "Use LIST command", //NEW
-    "SETTINGSWIND_GLOB_FRM_MLSD" : "Use MLSD command", //NEW
+    "SETTINGSWIND_GLOB_FRM_TITLE" : "Dosya alım yöntemini seçin:",
+    "SETTINGSWIND_GLOB_FRM_LIST" : "LIST komunutu kullan", 
+    "SETTINGSWIND_GLOB_FRM_MLSD" : "MLSD komutunu kullan",
     "SETTINGSWIND_GLOB_KEEPALIVE" : "Canlı Tutma Aralığı:",
     "SETTINGSWIND_GLOB_KEEPALIVE_DESC" : "Saniye cinsinden değer. Önerilen değer 10'dur. Komutları canlı tutmayı yasaklamak için 0'ı kullan ve her komut kullanıldığında sunucuyla bağlantısını kes",
     "SETTINGSWIND_GLOB_DEBUG" : "Debug:",
     "SETTINGSWIND_GLOB_TIMEFORMAT" : "Tarih Formatı:",
     "SETTINGSWIND_GLOB_TIMEFORMAT_US" : "ABD",
     "SETTINGSWIND_GLOB_TIMEFORMAT_EU" : "Avrupa",
-    "SETTINGSWIND_GLOB_TIMEFORMAT_ASIAN" : "Asian", //NEW
-    "SETTINGSWIND_GLOB_AUTOCLEAR" : "Auto-clear Queue", //NEW
-    "SETTINGSWIND_GLOB_NOTIFICATIONS" : "Notifications", //NEW
-    "SETTINGSWIND_GLOB_TIMEOFFSET" : "Time Offset:", //NEW
-    "SETTINGSWIND_GLOB_TIMEOFFSET_DESC" : "Use this option to set correct time for Modified column", //NEW
-    "SETTINGSWIND_GLOB_CONNECTIONTAB" : "Connection", //NEW
-    "SETTINGSWIND_GLOB_AUTOMATIZATIONTAB" : "Automatization", //NEW
-    "SETTINGSWIND_GLOB_ADVANCEDTAB" : "Advanced", //NEW
-    "SETTINGSWIND_GLOB_AUTO_SET_TITLE" : "Set automatization:", //NEW
-    "SETTINGSWIND_GLOB_AUTO_SYNC" : "Sync", //NEW
-    "SETTINGSWIND_GLOB_AUTO_CLASSIC" : "Classic", //NEW
-    "SETTINGSWIND_GLOB_AUTO_SYNC_SELECT_TITLE" : "Select what to sync", //NEW
-    "SETTINGSWIND_GLOB_AUTO_SYNC_FILECREATION" : "File creation", //NEW
-    "SETTINGSWIND_GLOB_AUTO_SYNC_FOLDERCREATION" : "Folder creation", //NEW
-    "SETTINGSWIND_GLOB_AUTO_SYNC_FILEUPLOAD" : "File update", //NEW
-    "SETTINGSWIND_GLOB_AUTO_SYNC_RENAMING" : "Renaming", //NEW
-    "SETTINGSWIND_GLOB_AUTO_SYNC_MOVING" : "Moving", //NEW
-    "SETTINGSWIND_GLOB_AUTO_SYNC_DELETING" : "Deleting", //NEW
-    "SETTINGSWIND_GLOB_AUTO_SYNC_EXTRASETTINGS_TITLE" : "Extra settings", //NEW
-    "SETTINGSWIND_GLOB_AUTO_SYNC_CHECKDIFF" : "Check for differences", //NEW
-    "SETTINGSWIND_GLOB_AUTO_SYNC_CHECKDIFF_EXPLAIN" : "When you open local or remote file", //NEW
-    "SETTINGSWIND_GLOB_AUTO_SYNC_IGNORELIST_TITLE" : "Ignore list", //NEW
-    "SETTINGSWIND_GLOB_AUTO_SYNC_IGNORELIST_EXPLAIN" : "Same syntax as in .gitignore", //NEW
-    "SETTINGSWIND_GLOB_SYNCLOCPROJWCONN" : "Open related Local project after switching connection and vice versa", //NEW
-    "SETTINGS_NOTIF_RELOADED" : "Settings were successfully reloaded.", //NEW
-    "SETTINGS_ERROR_RELOADED" : "Can't reload settings.", //NEW
-    "SETTINGSWIND_GLOB_SCE_TITLE" : "Use SSH commands with SFTP", //NEW
+    "SETTINGSWIND_GLOB_TIMEFORMAT_ASIAN" : "Asya",
+    "SETTINGSWIND_GLOB_AUTOCLEAR" : "Sırayı otomatik temizle",
+    "SETTINGSWIND_GLOB_NOTIFICATIONS" : "Bildirimler",
+    "SETTINGSWIND_GLOB_TIMEOFFSET" : "Saat farkı:",
+    "SETTINGSWIND_GLOB_TIMEOFFSET_DESC" : "Değiştirilmiş kolona doğru saati seçmek için bu seçeneği kullanın",
+    "SETTINGSWIND_GLOB_CONNECTIONTAB" : "Bağlantı",
+    "SETTINGSWIND_GLOB_AUTOMATIZATIONTAB" : "Otomatikleştirme", 
+    "SETTINGSWIND_GLOB_ADVANCEDTAB" : "Gelişmiş", 
+    "SETTINGSWIND_GLOB_AUTO_SET_TITLE" : "Otomatikleştirmeyi ayarlayın:",
+    "SETTINGSWIND_GLOB_AUTO_SYNC" : "Eşitle", 
+    "SETTINGSWIND_GLOB_AUTO_CLASSIC" : "Klasik", 
+    "SETTINGSWIND_GLOB_AUTO_SYNC_SELECT_TITLE" : "Eşitlenecek öğeleri seçin", 
+    "SETTINGSWIND_GLOB_AUTO_SYNC_FILECREATION" : "Dosya oluşturma",
+    "SETTINGSWIND_GLOB_AUTO_SYNC_FOLDERCREATION" : "Klasör oluşturma",
+    "SETTINGSWIND_GLOB_AUTO_SYNC_FILEUPLOAD" : "Dosya güncelleme", 
+    "SETTINGSWIND_GLOB_AUTO_SYNC_RENAMING" : "Yeniden adlandırılıyor", 
+    "SETTINGSWIND_GLOB_AUTO_SYNC_MOVING" : "Taşınıyor", 
+    "SETTINGSWIND_GLOB_AUTO_SYNC_DELETING" : "Siliniyor",
+    "SETTINGSWIND_GLOB_AUTO_SYNC_EXTRASETTINGS_TITLE" : "İlave ayarlar", 
+    "SETTINGSWIND_GLOB_AUTO_SYNC_CHECKDIFF" : "Değişiklikleri kontrol et", 
+    "SETTINGSWIND_GLOB_AUTO_SYNC_CHECKDIFF_EXPLAIN" : "Yerel veya sunucudaki dosyayı açtığınızda", 
+    "SETTINGSWIND_GLOB_AUTO_SYNC_IGNORELIST_TITLE" : "Yoksayılacaklar listesi",
+    "SETTINGSWIND_GLOB_AUTO_SYNC_IGNORELIST_EXPLAIN" : ".gitignore ile aynı syntax",
+    "SETTINGSWIND_GLOB_SYNCLOCPROJWCONN" : "Bağlantıyı değiştirdikten sonra ilgili yerel projeyi aç ya da tam tersi",
+    "SETTINGS_NOTIF_RELOADED" : "Ayarlar başarıyla tekrar yüklendi.", 
+    "SETTINGS_ERROR_RELOADED" : "Ayarlar tekrar yüklenemiyor.", 
+    "SETTINGSWIND_GLOB_SCE_TITLE" : "SFTP ile SSH komutlarını kullan", 
 
     "QUEUE_TITLE" : "eqFTP Kuyruğu",
     "QUEUE_HEADER_NAME" : "İsim",
@@ -128,35 +128,35 @@ define({
     "QUEUE_HEADER_TO" : "Hedef Yolu",
     "QUEUE_HEADER_STATUS" : "Durum",
     "QUEUE_CLEARQ" : "Kuyruğu Temizle",
-    "QUEUE_STARTQ" : "Start Queue", //NEW
-    "QUEUE_PAUSEQ" : "Pause Queue", //NEW
-    "QUEUE_RESTARTQ" : "Restart Failed", //NEW
-    "QUEUE_CONTEXTM_STARTT" : "Start", //NEW
-    "QUEUE_CONTEXTM_PAUSET" : "Pause", //NEW
-    "QUEUE_CONTEXTM_REMOVET" : "Remove", //NEW
-    "QUEUE_CONTEXTM_RESTARTT" : "Restart", //NEW
-    "QUEUE_TASK_STATUS_WAITING" : "Waiting", //NEW
-    "QUEUE_TASK_STATUS_SUCCESS" : "Done", //NEW
-    "QUEUE_TASK_STATUS_FAIL" : "Failed", //NEW
-    "QUEUE_TASK_STATUS_PAUSE" : "Paused", //NEW
-    "QUEUE_TASK_STATUS_STARTED" : "Started", //NEW
-    "QUEUE_TASK_STATUS_DELETED" : "Deleted", //NEW
-    "QUEUE_DONT_ADD_COMPLETED" : "Auto-clear Completed tasks", //NEW
+    "QUEUE_STARTQ" : "Sırayı başlat",
+    "QUEUE_PAUSEQ" : "Sırayı duraklat",
+    "QUEUE_RESTARTQ" : "Tekrar başlatılamadı",
+    "QUEUE_CONTEXTM_STARTT" : "Başlat", //NEW
+    "QUEUE_CONTEXTM_PAUSET" : "Duraklat", //NEW
+    "QUEUE_CONTEXTM_REMOVET" : "Kaldır", //NEW
+    "QUEUE_CONTEXTM_RESTARTT" : "Yeniden başlat", //NEW
+    "QUEUE_TASK_STATUS_WAITING" : "Bekliyor", //NEW
+    "QUEUE_TASK_STATUS_SUCCESS" : "Tamamlandı", //NEW
+    "QUEUE_TASK_STATUS_FAIL" : "Başarısız", //NEW
+    "QUEUE_TASK_STATUS_PAUSE" : "Duraklatıldı", //NEW
+    "QUEUE_TASK_STATUS_STARTED" : "Başlatıldı", 
+    "QUEUE_TASK_STATUS_DELETED" : "Silindi", 
+    "QUEUE_DONT_ADD_COMPLETED" : "Tamamlanmış görevleri otomatik temizle", 
     
     "ERR_FILE_ACCESSDENIED" : "Erişim Reddedildi. Dosya izinlerini kontrol edin.",
     "ERR_FILE_AUTHORIZATION" : "Yetkilendirme Hatası. Kullanıcı adı ve şifre bilgilerinizi kontrol edin.",
     "ERR_FILE_SERVNOEXIST" : "Sunucu Yok. Belkide yanlış yazmışsınızdır.",
     "ERR_FILE_SERVCANTREACH" : "Sunucuya ulaşılamadı. Firewall'ı kontrol edin.",
-    "ERR_FILE_FILESIZE0" : "Can't download file. Filesize is 0.", //NEW
-    "ERR_FILE_DOWNLOAD" : "Can't download file.", //NEW
-    "ERR_FILE_UPLOAD" : "Can't upload file.", //NEW
-    "ERR_FILE_DOESNTEXIST" : "File doesn't exist", //NEW
-    "ERR_FILE_CANTRENAME" : "Can't rename file: ", //NEW
-    "ERR_FILE_CANTDELETE" : "Can't delete file: ", //NEW
-    "ERR_FILE_CANTCREATEDIR" : "Can't create folder: ", //NEW
-    "ERR_FILE_CANTDELETEDIR" : "Can't delete folder: ", //NEW
-    "ERR_FILE_CANTCREATEFILE" : "Can't create file: ", //NEW
-    "ERR_FOLDER_OPEN" : "There's an error opening folder as project", //NEW
+    "ERR_FILE_FILESIZE0" : "Dosya indirilemiyor. Dosya boyutu 0.", //NEW
+    "ERR_FILE_DOWNLOAD" : "Dosya indirilemiyor.", //NEW
+    "ERR_FILE_UPLOAD" : "Dosya gönderilemiyor.", //NEW
+    "ERR_FILE_DOESNTEXIST" : "Dosya mevcut değil", //NEW
+    "ERR_FILE_CANTRENAME" : "Dosya yeniden adlandırılamıyor: ", //NEW
+    "ERR_FILE_CANTDELETE" : "Dosya silinemiyor: ", //NEW
+    "ERR_FILE_CANTCREATEDIR" : "Klasör oluşturulamıyor: ", //NEW
+    "ERR_FILE_CANTDELETEDIR" : "Klasör silinemiyor: ", //NEW
+    "ERR_FILE_CANTCREATEFILE" : "Dosya oluşturulamıyor: ", //NEW
+    "ERR_FOLDER_OPEN" : "Klasörü proje olarak açarken bir sorun oluştu", //NEW
 
     "CONTEXTM_DOWNLOAD" : "İndir",
     "CONTEXTM_UPLOAD" : "Yükle",
@@ -164,9 +164,9 @@ define({
     "CONTEXTM_OPEN" : "Aç",
     "CONTEXTM_DELETE" : "Sil",
     "CONTEXTM_RENAME" : "İsmini Değiştir",
-    "CONTEXTM_REDOWNLOAD" : "Download from server", //NEW
-    "CONTEXTM_CREATEFILE" : "Create file", //NEW
-    "CONTEXTM_CREATEFOLDER" : "Create folder", //NEW
+    "CONTEXTM_REDOWNLOAD" : "Sunucudan indir", //NEW
+    "CONTEXTM_CREATEFILE" : "Dosya oluştur", //NEW
+    "CONTEXTM_CREATEFOLDER" : "Klasör oluştur", //NEW
 
     "OTHER_SELECT_SERVER_DROPDOWN" : "Bağlanmak için bir Bağlantı Seçin",
     "OTHER_ERROR" : "Hata",
@@ -174,17 +174,17 @@ define({
     "OTHER_COMPLETED" : "Tamamlandı",
     "OTHER_CANCELLED" : "İptal Edildi",
     "OTHER_WAITING" : "Bekleniyor",
-    "OTHER_YES" : "Yes", //NEW
-    "OTHER_NO" : "No", //NEW
+    "OTHER_YES" : "Evet", //NEW
+    "OTHER_NO" : "Hayır", //NEW
     "OTHER_OK" : "Tamam",
-    "OTHER_OFF" : "Off", //NEW
+    "OTHER_OFF" : "Kapat", //NEW
     "OTHER_CANCEL" : "İptal",
     "OTHER_APPLY" : "Uygula",
-    "OTHER_SAVE" : "Save", //NEW
+    "OTHER_SAVE" : "Kaydet", //NEW
     "OTHER_CLOSE" : "Kapat",
     "OTHER_DELETE" : "Sil",
-    "OTHER_CONFIRM_DELETE" : "Are you sure you want to delete this item?", //NEW
-    "OTHER_CONFIRM_SETTINGSCLOSE" : "There are some unsaved changes that will be lost if you click OK.<br>Do you want to proceed?", //NEW
-    "OTHER_ERROR_EVENDISCONN" : "Can't upload file. 'Even If Disconnected' option is off.", //NEW
-    "OTHER_ERROR_CANTREADSETTINGS" : "Can't read settings file. You probably mistyped your master password." //NEW
+    "OTHER_CONFIRM_DELETE" : "Bu öğeyi silmek istediğinizden emin misiniz?", //NEW
+    "OTHER_CONFIRM_SETTINGSCLOSE" : "Tamam'a tıklarsanız kaybedeceğiniz bazı kaydedilmemiş değişiklikleriniz bulunmakta.<br>Devam etmek istiyor musunuz?", //NEW
+    "OTHER_ERROR_EVENDISCONN" : "Dosya sunucuya yüklenemedi. 'Bağlı olmadığında bile' seçeneği kapalı.", //NEW
+    "OTHER_ERROR_CANTREADSETTINGS" : "Ayarlar dosyası okunamıyor. Muhtemelen ana şifrenizi yanlış yazdınız." //NEW
 });
